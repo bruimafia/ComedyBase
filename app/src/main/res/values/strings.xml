@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ComedyBase</string>
+
+    <string name="task_1">Задание #1</string>
+    <string name="task_2">Задание #2</string>
+    <string name="task_3">Задание #3</string>
+    <string name="task_4">Задание #4</string>
+
+    <string name="task_desc_1">Вывести названия фильмов в порядке их выхода на экран</string>
+    <string name="task_desc_2">Вывести отдельно названия фильмов режиссеров Данелия, Гайдая и Рязанова</string>
+    <string name="task_desc_3">Вывести названия двухсерийных фильмов, выпущенных в прокат ранее 1978 г.</string>
+    <string name="task_desc_4">Вывести названия комедий в алфавитном порядке</string>
+
+    <string name="run">Выполнить</string>
+    <string name="clear">Очистить</string>
+    <string name="update">Обновить запись</string>
+    <string name="add">Добавить запись</string>
+
+    <string name="example_comedy">Двенадцать стульев</string>
+    <string name="example_director">Гайдай</string>
+    <string name="example_year">1971</string>
+    <string name="example_number">2</string>
+
+    <string name="director">Режиссер:</string>
+    <string name="year">Год выпуска:</string>
+    <string name="number">Число серий:</string>
+
+    <string name="hint_comedy">Название фильма</string>
+    <string name="hint_director">Режиссер</string>
+    <string name="hint_year">Год выпуска</string>
+    <string name="hint_number">Число серий</string>
+    <string name="hint_search">Начните вводить текст запроса</string>
+
+</resources>

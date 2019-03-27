@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_100"
+    tools:context="com.example.gukov.comedybase.FiltersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:paddingBottom="7dp"
+                    android:textSize="20sp"
+                    android:text="@string/task_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="14sp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/grey_500"
+                    android:text="@string/task_desc_1" />
+
+                <Button
+                    android:id="@+id/btnTask1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:theme="@style/ButtonMainStyle"
+                    android:text="@string/run" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/grey_300" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:paddingBottom="7dp"
+                    android:textSize="20sp"
+                    android:text="@string/task_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="14sp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/grey_500"
+                    android:text="@string/task_desc_2" />
+
+                <Button
+                    android:id="@+id/btnTask2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:theme="@style/ButtonMainStyle"
+                    android:text="@string/run" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/grey_300" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:paddingBottom="7dp"
+                    android:textSize="20sp"
+                    android:text="@string/task_3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="14sp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/grey_500"
+                    android:text="@string/task_desc_3" />
+
+                <Button
+                    android:id="@+id/btnTask3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:theme="@style/ButtonMainStyle"
+                    android:text="@string/run" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/grey_300" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:paddingBottom="7dp"
+                    android:textSize="20sp"
+                    android:text="@string/task_4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="14sp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/grey_500"
+                    android:text="@string/task_desc_4" />
+
+                <Button
+                    android:id="@+id/btnTask4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:theme="@style/ButtonMainStyle"
+                    android:text="@string/run" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
